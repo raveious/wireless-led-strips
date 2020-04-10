@@ -54,3 +54,7 @@ dkms.conf
 # python testing tools
 */venv
 *.pyc
+
+# Ignore build output
+sdkconfig
+build
