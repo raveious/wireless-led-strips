@@ -2,7 +2,7 @@ FROM centos:7.6.1810
 
 # Setup some of out environment variables for the toolchain
 ENV IDF_PATH=/esp-idf \
-    PATH=$PATH:/xtensa-lx106-elf/bin:/esp_idf/tools
+    PATH=$PATH:/xtensa-lx106-elf/bin:/esp-idf/tools
 
 # Pull in the archive of the toolchain. Adding it from context, instead of using a URL, to more easily version the toolchain.
 ADD xtensa-lx106-elf-linux64-1.22.0-100-ge567ec7-5.2.0.tar.gz /
