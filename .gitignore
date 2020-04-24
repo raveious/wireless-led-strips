@@ -57,4 +57,5 @@ dkms.conf
 
 # Ignore build output
 sdkconfig
+sdkconfig.*
 build
